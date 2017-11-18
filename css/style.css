@@ -49,3 +49,23 @@ body {
 .links__icon:hover {
 	opacity: 1;
 }
+
+/* Larger than HD */
+@media (min-width: 1800px) {
+	body {
+		font-size: 2em;
+	}
+	.headshot {
+		height: 300px;
+		border-radius: 150px;
+		margin-top: 70px;
+		margin-bottom: 40px;
+	}
+	.links {
+		width: 500px;
+		margin-top: 30px;
+	}
+	.links__icon {
+		width: 60px;
+	}
+}
