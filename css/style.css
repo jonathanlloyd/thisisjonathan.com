@@ -23,6 +23,10 @@ body {
 	text-decoration: none;
 }
 
+.bio a:visited {
+	color: blue;
+}
+
 .bio__name {
 	font-weight: bold;
 	font-size: 1.8em;
